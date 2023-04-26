@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+/* redefinicao da template */
+.titulos-container, .conteudos-navegacao, .corpo:after {
+	display: none;
+	visibility: hidden;
+}
+.corpo {
+	background: #fefefe;
+	padding: 0;
+	padding-top: 88px;
+}
+.conteudos {
+	background: transparent;
+	float: left;
+	max-width: 2000px;
+	padding: 0;
+	width: 100%;
+}
+/* banners */
+.banners {
+	display: block;
+}
+/* quem somos + noticias */
+.quemsomos-noticias-container {
+	background: #93dbdd;
+	float: left;
+	margin-bottom: 36px;
+	max-width: 2000px;
+	position: relative;
+	width: 100%;
+}
+.quemsomos-noticias-container:after {
+	background: url(../img/conteudos-rodape-azul.png) no-repeat left top;
+	background-size: 100%;
+	bottom: -12px;
+	content: "";
+	display: block;
+	height: 100rem;
+	left: 0;
+	max-height: 12px;
+	max-width: 2000px;
+	position: absolute;
+	width: 100%;
+}
+@media screen and (max-width: 767px) and (min-width: 176px) {
+.quemsomos-noticias-container:after {
+	background-size: cover;
+}
+}
+@media screen and (max-width: 899px) and (min-width: 768px) {
+.quemsomos-noticias-container:after {
+	background-size: cover;
+}
+}
+@media screen and (max-width: 1169px) and (min-width: 768px) {
+.quemsomos-noticias-container:after {
+	background-size: cover;
+}
+}
+.quemsomos-noticias {
+	margin: 0 auto;
+	max-width: 1170px;
+	width: 100%;
+}
+.quemsomos {
+	background: url(../img/home-quemsomos-bg.svg) no-repeat left top;
+	background-size: 100%;
+	color: #751636;
+	display: inline-block;
+	float: left;
+	font-family: 'kg_miss_speechy_iparegular';
+	font-size: 1.8rem;
+	max-height: 378px;
+	max-width: 517px;
+	padding: 2.078% 3.748% 1.966% 3.9%;
+	position: relative;
+	text-align: justify;
+	width: 100%;
+	z-index: 9;
+}
+@media screen and (max-widt: 1170px) and (min-width: 768px) {
+.quemsomos {
+	width: 44.189%;
+}
+}
+@media screen and (max-width: 1060px) {
+.quemsomos {
+	padding: 24.313px 43.844px 23px 45.625px;
+}
+}
+@media screen and (max-width: 520px) {
+.quemsomos {
+	font-size: 1.3rem;
+}
+}
+.quemsomos-titulo {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 8px;
+	max-width: 363px;
+	position: relative;
+	z-index: 11;
+}
+/* noticias */
+.noticias {
+	display: inline-block;
+	float: left;
+	margin-left: 2%;
+	max-width: 557px;
+	width: 100%;
+}
+.noticias-cabecalho {
+	margin: 0 auto;
+	margin-bottom: 6px;
+	margin-top: 16px;
+	max-width: 502px;
+	position: relative;
+	width: 100%;
+}
+.noticias-titulo {
+	max-width: 233px;
+	width: 100%;
+}
+.noticias-ilhoses {
+	bottom: 4px;
+	height: 100rem;
+	left: -18px;
+	max-height: 20px;
+	max-width: 19px;
+	position: absolute;
+	width: 100%;
+}
+.noticias-botao {
+	display: block;
+	float: right;
+	margin-top: 26px;
+	max-width: 177px;
+}
+.noticia {
+	background: rgba(255,255,255,0.24);
+	display: inline-block;
+	float: left;
+	max-width: 277px;
+	padding: 12px 22px 5px 29px;
+	text-align: justify;
+	width: 100%;
+}
+.noticia:hover {
+	background: rgba(255,255,255,0.64);
+}
+.noticias div:nth-child(2) {
+	margin-right: 1px;
+}
+.noticia a {
+	color: #75676f;
+	font-family: 'myriad pro regular';
+	font-size: 1.3rem;
+}
+.noticia img {
+	border: solid 7px #ffffff;
+	box-shadow: 0.5px 0.866px 2px 0px rgba(65, 34, 42, 0.137);
+	display: block;
+	margin-bottom: 15px;
+	max-width: 227px;
+	width: 100%;
+}
+.noticia-titulo {
+	color: #762237;
+	display: block;
+	font-size: 1.4rem;
+}
+/* instagram + facebook */
+.redes-sociais {
+	margin: 0 auto;
+	margin-bottom: 36px;
+	max-width: 1170px;
+	padding: 0 2%;
+	width: 100%;
+}
+.redes-sociais-titulo {
+	color: #098d91;
+	font-family: 'kg_miss_speechy_iparegular';
+	font-size: 2.5rem;
+	margin: 0 auto;
+	margin-bottom: 19px;
+	max-width: 300px;
+	text-align: center;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.075);
+}
+/* instagram */
+.instagram {
+	display: inline-block;
+	float: left;
+	max-width: 578px;
+	width: 100%;
+}
+.instagram-cabecalho {
+	margin-bottom: 16px;
+	width: 100%;
+}
+.instagram-titulo {
+	max-width: 132px;
+	width: 100%;
+}
+/* facebook */
+.facebook {
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	max-width: 520px;
+	width: 100%;
+}
+@media screen and (max-width: 767px) {
+.quemsomos-noticias {
+	padding: 0 2%;
+}
+.quemsomos {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+.noticias {
+	max-width: 757px;
+	padding-left: 0;
+	margin-left: 0;
+	text-align: center;
+}
+.noticia {
+	display: inline-block;
+	float: none;
+}
+.instagram, .facebook {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+}
+@media screen and (max-width: 610px) {
+.instagram {
+	width: 90%;
+}
+}
+@media screen and (max-width: 599px) {
+.noticia {
+	display: block;
+	margin: 0 auto;
+	max-width: 529px;
+	width: 90%;
+}
+.noticias div:nth-child(2) {
+	margin-bottom: 1px;
+	margin-right: auto;
+}
+}
+@media screen and (max-width: 550px) {
+.noticias-cabecalho {
+	padding: 0 2%;
+}
+.noticias-ilhoses {
+	left: 0;
+}
+}
+@media screen and (max-width: 461px) {
+.noticias-ilhoses {
+	bottom: auto;
+	top: 71px;
+}
+.noticias-botao {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+}
+@media screen and (max-width: 399px) {
+.quemsomos {
+	background: #b0dce1;
+	border: dashed 5px #ffffff;
+	border-radius: 6px;
+	margin-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+@media screen and (max-width: 1113px) and (min-width: 768px) {
+.noticias {
+	margin-left: auto;
+	max-width: 1103px;
+	padding-left: 2%;
+	padding-right: .5%;
+}
+.noticias-cabecalho {
+	max-width: 1090px;
+}
+}
+@media screen and (max-width: 1113px) and (min-width: 882px) {
+.noticia {
+	max-width: 1093px;
+	width: 49%;
+}
+.noticia img {
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+}
+}
+@media screen and (max-width: 881px) and (min-width: 768px) {
+.noticia {
+	max-width: 1093px;
+	width: 49%;
+}
+.noticia img {
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+}
+}
+@media screen and (max-width: 1166px) and (min-width: 768px) {
+.instagram {
+	display: block;
+	float: none;
+	margin: 0 auto;
+}
+.facebook {
+	display: block;
+	float: none;
+	margin: 15px 0;
+	max-width: 1156px;
+	width: 100%;
+}
+}

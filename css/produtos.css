@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navegacao ul li:nth-child(2) a {
+	color: #df5599;
+	cursor: default;
+}
+.menu-movel li:nth-child(2) a {
+	background: #df5599;
+	color: #ffffff;
+	cursor: default;
+}
+.titulos h1 {
+	font-size: 3.35rem;
+}
+@media screen and (min-width: 873px) {
+.titulos h1 {
+	padding-top: 25px;
+}
+}
+@media screen and (max-width: 872px) and (min-width: 768px) {
+.titulos h1 {
+	font-size: 3rem;
+	padding-top: 18px;
+}
+}
+@media screen and (max-width: 767px) and (min-width: 176px) {
+.titulos h1 {
+	font-size: 1.9rem;
+}
+}
